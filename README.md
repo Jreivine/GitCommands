@@ -15,6 +15,7 @@ $ git push -u origin master
 ### When adding on your repository on line with changes
 ``` sh
 $ git add .
+$ git add -u # when deleting a local file you want to remove from your repo
 $ git commit -m "what has changed"
 $ git push
 # put in username & password
