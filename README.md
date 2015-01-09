@@ -1,8 +1,11 @@
 # Git Commands
 
-### Creating a repository for the <b>1st time </b>!
 
+
+
+### Creating a repository for the <b>1st time </b>!
 ``` sh
+# navigate into your folder to be put on GitHub
 $ touch README.md # initialize your git repository locally
 $ git init
 $ git add README.md # adds everything changed from local to staging
@@ -24,4 +27,10 @@ $ git push
 ### No username & password input for every push.
 ``` sh
 $ git remote set-url origin git@github.com:YourUsername/yourRponame.git
+```
+
+### Working together from perspective of the user who doesn't have the original repo
+``` sh
+#fork the repository you want to work on
+$ git clone https://github.com/yourUserName/yourRepoName.git
 ```
